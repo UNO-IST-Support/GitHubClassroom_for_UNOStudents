@@ -23,7 +23,8 @@ Below we make a repository and copy the link so that we can get the repository o
 ![Alt Text](http://g.recordit.co/Uw0QIT8XhR.gif)
 
 ### Clone the repo to your local computer
-On your Command Window, cd to wherever you would like your project/repository to be placed.
+On your Command Window, cd to wherever you would like your project/repository to be placed. Then run "git clone https://github.com/User/repository.git
+This will clone the repo to that location, unless specified otherwise. 
 
 ![Alt Text](http://g.recordit.co/0eLLGCclcO.gif)
 
