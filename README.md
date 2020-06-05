@@ -30,7 +30,7 @@ On your Command Window, cd to wherever you would like your project/repository to
 ### Make a local change, commit, and push and confirm the local change propogated to the GitHub Remote
 Once you made changes to your files and need to push (upload) them to your repository, use these commands in a command window in that assignment directory.
 
-git add -a (or instead of -a, you can put the file name if you just want to upload certain files)
+git add -a (If -a doesn't work, try --a, or instead of -a, you can put the file name if you just want to upload certain files)
 git commit -m "Put a meaningful comment here describing what you did"
 git remote add origin https://github.com/Classroom/repo (This link will be the link to your repository/assignment)
 git push -u origin master
