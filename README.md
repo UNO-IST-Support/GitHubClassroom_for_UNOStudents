@@ -81,4 +81,4 @@ Your classroom may have a repository where everyone in the class has access to i
 * [How to clone, edit, and push homework assignments with GitHub Classroom (video)](https://youtu.be/pAcMgGbCtQw)
 
 ### Credits
-This guide and alternative grading instructions were derived from https://github.com/jfiksel/github-classroom-for-students
+This guide was derived from https://github.com/jfiksel/github-classroom-for-students
