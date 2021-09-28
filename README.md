@@ -9,8 +9,13 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 3. Setup options in Git. Open up a Terminal or Command Prompt and cd into the project directory. Once there, we need to run a couple commands to set up git. The first command is your name, the second command is the email associated with your GitHub account.
 
+```
 git config --global user.name 'Jane Doe'
+```
+
+```
 git config --global user.email 'student@email.com'
+```
 
 ![Alt Text](http://g.recordit.co/ibUp6dYimU.gif)
 
@@ -31,27 +36,52 @@ This will clone the repo to that location, unless specified otherwise.
 ### Make a local change, commit, and push and confirm the local change propogated to the GitHub Remote
 Once you made changes to your files and need to push (upload) them to your repository, use these commands in a command window in that assignment directory.
 
-git add -a (If -a doesn't work, try --a, or instead of -a, you can put the file name if you just want to upload certain files)
+```
+git add -a
+```
+
+If -a doesn't work, try --a, or instead of -a, you can put the file name if you just want to upload certain files
+
+```
 git commit -m "Put a meaningful comment here describing what you did"
-git remote add origin https://github.com/Classroom/repo (This link will be the link to your repository/assignment)
+```
+
+```
+git remote add origin https://github.com/Classroom/repo
+```
+The link in the above command (the https://......) will be the link to your repository/assignment
+
+```
 git push -u origin master
+```
 
 Once you run these commands, it will ask for your username (email) and password.
 After you push these, you may want to run another command so you don't have to continue entering your info.
 
-Timed (15 minutes) - git config --global credential.helper cache
-Timed (specifically) - git config --global credential.helper "cache --timeout=3600"
-Permanently - git config --global credential.helper manager
+Timed (15 minutes):
+```
+git config --global credential.helper cache
+```
+
+Timed (specifically):
+```
+git config --global credential.helper "cache --timeout=3600"
+```
+
+Permanently:
+```
+git config --global credential.helper manager
+```
 
 ### Steps for downloading and editing assignments from GitHub Classroom on Odin, Linux, or Mac
 
 1. Make a folder specifically for your class (call it something like classroom-fall-2017). You can do this by using the command mkdir. For example, "mkdir homework" will create a folder at the location you are in with the name homework. It is recommended that you do not have spaces in your folder or file names. Spaces are best shown as underscores (\_). You can then navigate into that folder by typing "cd homework" or whatever you named it.
 
-And here is what the process of creating these directories looks like from the terminal on a Mac, but the process works the same on linux or Odin:
+And here is what the process of creating these directories looks like from the terminal on a Mac, but the process works the same on Linux or Odin:
 
 ![Alt Text](http://g.recordit.co/6o0kNx4Lpv.gif)
 
-2.  The professor will give you a link to an assignment, either through email or the class page. This will happen for each new assignment. Follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, you may get an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
+2.  The professor will give you a link to an assignment, either through email or the class page. This may happen for each new assignment, depending if they make a class roster. Follow the instructions for getting the homework repository set up. It should be as simple as hitting accept assignment and downloading the repo or working directly on Github. You should now have a repository for this homework. Note that after you accept an assignment for the first time, you may get an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
 
 ![Alt Text](accept-assignment.png)
 
